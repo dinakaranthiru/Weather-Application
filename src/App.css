@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(59, 61, 62);
+}
+
+.app{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px;
+ 
+  margin: auto;
+  margin-left:200px;
+  
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  border: 1px solid #ccc;
+
+}
+
+button{
+  padding: 10px 15px;
+  border: none;
+  background-color: #008cff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: #0072cc;
+}
+
+.loading{
+color: gray;
+}
+
+.error{
+  color: red;
+}
