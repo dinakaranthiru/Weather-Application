@@ -1,4 +1,5 @@
 import React from "react";
+import "./WeatherCard.css";
 
 const WeatherCard = ({ data }) => {
   const { name, main, weather, wind } = data;

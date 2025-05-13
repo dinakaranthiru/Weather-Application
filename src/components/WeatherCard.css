@@ -1,0 +1,32 @@
+
+/* WeatherCard.css */
+
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 15px;
+  margin: 1.5rem auto; /* <-- this centers it horizontally */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  text-align: center;
+}
+
+.weather-card h2 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.weather-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-card h3 {
+  margin: 0.5rem 0;
+}
+
+.weather-card p {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
